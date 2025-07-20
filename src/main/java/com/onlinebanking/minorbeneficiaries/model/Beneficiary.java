@@ -17,9 +17,7 @@ public class Beneficiary {
    // @GeneratedValue(strategy = GenerationType.IDENTITY)
    @Column(name = "beneficiary_id")
     private Long beneficiaryId;
-    @Version
-    @Column(name = "version")
-    private Long version;
+
 
     private Long userId;
 
